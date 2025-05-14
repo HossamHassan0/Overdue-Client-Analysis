@@ -5,11 +5,13 @@ Dynamic Powerbi Dashboard that analysis the clients who delyed in paid, show the
 
 ## Tools Used
 - Power BI (data cleaning - DAX formulas)
+- Data Modeling: using star schema to link Dimension with other (DimContract - DimApplication - DimDates - FactTable that contain all 
+  numeric feartures.
 
 ## Key Features
-- Dynamic filters (date, office, loan type, marital status)
+- Dynamic filters (date, office, loan type, marital status).
 - Trend analysis (No.of Contracts - Due amount).
-- % loan type
+- % loan type.
 - First_unpaid (month that the client stopped in payment).
 - No of application per office per max_delay.
-- no.of aplication trend vs average amount per application
+- no.of aplication trend vs average amount per application.
