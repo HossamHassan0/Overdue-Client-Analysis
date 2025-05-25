@@ -1,17 +1,13 @@
 # Overdue-Client-Analysis
 
+## Project Title
+Loan Performance & Client Payment Behavior Analysis
+
 ## Project Overview
-Dynamic Powerbi Dashboard that analysis the clients who delyed in paid, show the performance of the offices and their due amount.
+This project focused on analyzing client payment patterns and contract performance for a financial services dataset. The analysis aimed to uncover insights related to delayed payments, loan type trends, and client engagement. Key KPIs included due amount trends, contract and application volumes per day, and average amount per contract per loan type. A structured data model was developed to support efficient reporting and deeper analysis of client behavior.
 
-## Tools Used
-- Power BI (data cleaning - DAX formulas)
-- Data Modeling: using star schema to link Dimension with other (DimContract - DimApplication - DimDates - FactTable that contain all 
-  numeric feartures.
-
-## Key Features
-- Dynamic filters (date, office, loan type, marital status).
-- Trend analysis (No.of Contracts - Due amount).
-- % loan type.
-- First_unpaid (month that the client stopped in payment).
-- No of application per office per max_delay.
-- no.of aplication trend vs average amount per application.
+## Project Outcome
+- Identified trends in overdue payments and high-risk client segments.
+- Provided daily insights into application and contract activity.
+- Uncovered patterns in loan type performance and average contract values.
+- Built a scalable data model to streamline reporting and decision-making.
